@@ -9,3 +9,4 @@
 
 ### Data Structures
 - [Arrays](https://github.com/DLzer/ds_and_algos/blob/master/datastructures/arrays.go)
+- [Linked Lists](https://github.com/DLzer/ds_and_algos/blob/master/datastructures/linked_list.go)
