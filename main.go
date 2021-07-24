@@ -10,6 +10,12 @@ import (
 func main() {
 
 	/*
+		==============================
+			Algorithms
+		==============================
+	*/
+
+	/*
 		Linear Search
 		 - Start at beginning
 		 - Compare current value to target
@@ -45,7 +51,23 @@ func main() {
 	fmt.Println(response)
 
 	/*
-		Data Structures
+		Merge Sort
+		Merge sort is a fast divide and conquery algorithm for
+		sorting lists recursively. It will:
+		- Divide the lists into 2 until it has single element lists
+		- Then it will merge every two halves until it's complete
+	*/
+	fmt.Println("==========================")
+	fmt.Println("Starting merge sort")
+	unsorted := []int{10, 6, 2, 1, 5, 8, 3, 4, 7, 9}
+	fmt.Println("Unsorted List", unsorted)
+	sorted := algorithms.MergeSort(unsorted)
+	fmt.Println("Sorted List: ", sorted)
+
+	/*
+		===================================
+			Data Structures
+		===================================
 	*/
 
 	// Array Functions
