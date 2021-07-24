@@ -12,7 +12,7 @@ import "fmt"
 		- Let the loop run until if narrows down enough to find the target
 */
 func BinarySearch(list []int, target int) string {
-
+	fmt.Println("==========================")
 	fmt.Printf("Starting Binary Search..\n")
 	fmt.Printf("Finding target: %d in list %d \n", target, list)
 

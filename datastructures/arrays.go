@@ -7,6 +7,7 @@ import "fmt"
 	is referenced by an index or a key.
 */
 func Arrays() {
+	fmt.Println("==========================")
 	fmt.Println("Array Functions")
 	/*
 		We'll start by creating an array that is 5 indexes in length

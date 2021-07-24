@@ -70,7 +70,12 @@ func main() {
 		===================================
 	*/
 
-	// Array Functions
+	/*
+		Arrays
+		- Stores a list of values where each value can be referened
+		by an index or key
+		- Here you'll see an array ( ha ) of array functionality
+	*/
 	datastructures.Arrays()
 
 	// To combine arrays and algorithms we can perform a search on a created array
@@ -79,8 +84,16 @@ func main() {
 	response = algorithms.LinearSearch(newArray, 5)
 	fmt.Println(response)
 
+	/*
+		Linked Lists
+		- A linear collection of data where, in short, each value holds reference
+		of it's successor and predecessor in the list.
+	*/
+
 	// Here we create a linked list, insert data,
 	// and display the head, tail, and reversed List
+	fmt.Println("==========================")
+	fmt.Println("Linked List Functionality")
 	datastructures.RunListFunctions()
 
 }

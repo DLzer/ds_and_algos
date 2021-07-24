@@ -10,6 +10,7 @@ import "fmt"
 		- Reach end of list
 */
 func LinearSearch(list []int, target int) string {
+	fmt.Println("==========================")
 	fmt.Printf("Starting Linear Search..\n")
 	fmt.Printf("Finding target: %d in list %d \n", target, list)
 
