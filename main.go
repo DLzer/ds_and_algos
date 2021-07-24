@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/DLzer/ds-and-algos/algorithms"
+	"github.com/DLzer/ds-and-algos/datastructures"
 )
 
 func main() {
@@ -41,6 +42,19 @@ func main() {
 	*/
 	items = []int{1, 2, 9, 20, 31, 45, 63, 70, 100}
 	response = algorithms.RecursiveBinarySearch(items, 63)
+	fmt.Println(response)
+
+	/*
+		Data Structures
+	*/
+
+	// Array Functions
+	datastructures.Arrays()
+
+	// To combine arrays and algorithms we can perform a search on a created array
+	newArray := datastructures.ReturnNewArray([]int{1, 2, 3, 4, 5})
+	fmt.Println("Testing our array:")
+	response = algorithms.LinearSearch(newArray, 5)
 	fmt.Println(response)
 
 }
