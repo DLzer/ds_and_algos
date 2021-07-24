@@ -2,6 +2,15 @@ package algorithms
 
 import "fmt"
 
+/*
+	Binary Search
+		- Start by defining the start and end indexes of our list
+		- Start a loop if our first index is not greater than our last
+		- In the loop determine our midpoint
+		- Run a check against the current midpoint to the target
+		- If it's not a match, set our new first and last indexes
+		- Let the loop run until if narrows down enough to find the target
+*/
 func BinarySearch(list []int, target int) string {
 
 	fmt.Printf("Starting Binary Search..\n")

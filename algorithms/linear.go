@@ -2,6 +2,13 @@ package algorithms
 
 import "fmt"
 
+/*
+	Linear Search
+		- Start at beginning
+		- Compare current value to target
+		- Move Sequentially
+		- Reach end of list
+*/
 func LinearSearch(list []int, target int) string {
 	fmt.Printf("Starting Linear Search..\n")
 	fmt.Printf("Finding target: %d in list %d \n", target, list)

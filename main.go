@@ -32,4 +32,15 @@ func main() {
 	response = algorithms.BinarySearch(items, 63)
 	fmt.Println(response)
 
+	/*
+		Recursive Binary Search
+		- Similary to binary search we start with a list and target
+		- The primary difference is through each iteration if we
+		find that the target is not within the bounds we call the
+		function again with a new list that removes the excess.
+	*/
+	items = []int{1, 2, 9, 20, 31, 45, 63, 70, 100}
+	response = algorithms.RecursiveBinarySearch(items, 63)
+	fmt.Println(response)
+
 }
