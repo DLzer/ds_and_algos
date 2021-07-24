@@ -57,4 +57,8 @@ func main() {
 	response = algorithms.LinearSearch(newArray, 5)
 	fmt.Println(response)
 
+	// Here we create a linked list, insert data,
+	// and display the head, tail, and reversed List
+	datastructures.RunListFunctions()
+
 }

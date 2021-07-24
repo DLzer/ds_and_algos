@@ -23,6 +23,14 @@ func Arrays() {
 	// Here we'll print out the specific index reference
 	fmt.Println("Get array: ", array[4])
 
+	// We can declare and initialize at the same time
+	var a = [5]int{2, 4, 6, 8, 10}
+	fmt.Println("Declare and Init: ", a)
+
+	// We can also let the compiler infer the length of the array
+	b := [...]int{1, 2, 3, 4, 5}
+	fmt.Println("Inferred length: ", b)
+
 }
 
 // Redundant, but for testing we'll use this to return a new array
